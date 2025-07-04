@@ -1,0 +1,165 @@
+[
+  {
+    "id": 1,
+    "title": "The C Programming Language",
+    "author": "Brian W. Kernighan and Dennis M. Ritchie",
+    "year": 1978,
+    "genre": "Computer Science",
+    "price": 29.99,
+    "image": "https://m.media-amazon.com/images/I/91IXgHeNEZL._AC_UF1000,1000_QL80_.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Clean Code",
+    "author": "Robert C. Martin",
+    "year": 2008,
+    "genre": "Software Engineering",
+    "price": 34.99,
+    "image": "https://m.media-amazon.com/images/I/41SH-SvWPxL.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Design Patterns",
+    "author": "Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides",
+    "year": 1994,
+    "genre": "Software Engineering",
+    "price": 39.99,
+    "image": "https://m.media-amazon.com/images/I/51k+zJjCr-L.jpg"
+  },
+  {
+    "title": "You Don't Know JS",
+    "author": "Kyle Simpson",
+    "year": 2015,
+    "genre": "JavaScript",
+    "price": 27.5,
+    "image": "https://m.media-amazon.com/images/I/51-8u2obWIL.jpg"
+  },
+  {
+    "title": "Introduction to Algorithms",
+    "author": "Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein",
+    "year": 2009,
+    "genre": "Algorithms",
+    "price": 79.99,
+    "image": "https://m.media-amazon.com/images/I/51oXKWrcYYL.jpg"
+  },
+  {
+    "title": "Refactoring",
+    "author": "Martin Fowler",
+    "year": 2018,
+    "genre": "Software Engineering",
+    "price": 45.99,
+    "image": "https://m.media-amazon.com/images/I/41as+WafrFL.jpg"
+  },
+  {
+    "title": "The Pragmatic Programmer",
+    "author": "Andrew Hunt and David Thomas",
+    "year": 1999,
+    "genre": "Software Development",
+    "price": 37.99,
+    "image": "https://m.media-amazon.com/images/I/51A5g5P0AQL.jpg"
+  },
+  {
+    "title": "Code Complete",
+    "author": "Steve McConnell",
+    "year": 2004,
+    "genre": "Software Development",
+    "price": 42.0,
+    "image": "https://m.media-amazon.com/images/I/51Wf5hftwML.jpg"
+  },
+  {
+    "title": "Structure and Interpretation of Computer Programs",
+    "author": "Harold Abelson and Gerald Jay Sussman",
+    "year": 1996,
+    "genre": "Computer Science",
+    "price": 54.95,
+    "image": "https://m.media-amazon.com/images/I/51vVtJpP0hL.jpg"
+  },
+  {
+    "title": "Artificial Intelligence: A Modern Approach",
+    "author": "Stuart Russell and Peter Norvig",
+    "year": 2010,
+    "genre": "Artificial Intelligence",
+    "price": 89.99,
+    "image": "https://m.media-amazon.com/images/I/51G6NwU8OXL.jpg"
+  },
+  {
+    "title": "Working Effectively with Legacy Code",
+    "author": "Michael Feathers",
+    "year": 2004,
+    "genre": "Software Engineering",
+    "price": 46.5,
+    "image": "https://m.media-amazon.com/images/I/51xwGSNX-LL.jpg"
+  },
+  {
+    "title": "Deep Learning",
+    "author": "Ian Goodfellow, Yoshua Bengio, Aaron Courville",
+    "year": 2016,
+    "genre": "Machine Learning",
+    "price": 72.0,
+    "image": "https://m.media-amazon.com/images/I/41+a6U+rFvL.jpg"
+  },
+  {
+    "title": "The Mythical Man-Month",
+    "author": "Frederick P. Brooks Jr.",
+    "year": 1995,
+    "genre": "Software Project Management",
+    "price": 29.95,
+    "image": "https://m.media-amazon.com/images/I/51FHuAGqYIL.jpg"
+  },
+  {
+    "title": "Continuous Delivery",
+    "author": "Jez Humble and David Farley",
+    "year": 2010,
+    "genre": "DevOps",
+    "price": 49.99,
+    "image": "https://m.media-amazon.com/images/I/51pQK4wiuGL.jpg"
+  },
+  {
+    "title": "Head First Design Patterns",
+    "author": "Eric Freeman, Elisabeth Robson, Bert Bates, Kathy Sierra",
+    "year": 2004,
+    "genre": "Software Engineering",
+    "price": 35.99,
+    "image": "https://m.media-amazon.com/images/I/61APhXCksuL.jpg"
+  },
+  {
+    "title": "Grokking Algorithms",
+    "author": "Aditya Bhargava",
+    "year": 2016,
+    "genre": "Algorithms",
+    "price": 44.99,
+    "image": "https://m.media-amazon.com/images/I/71aFt4+OTOL.jpg"
+  },
+  {
+    "title": "Programming Pearls",
+    "author": "Jon Bentley",
+    "year": 2000,
+    "genre": "Computer Science",
+    "price": 31.99,
+    "image": "https://m.media-amazon.com/images/I/41h5T5H5S9L.jpg"
+  },
+  {
+    "title": "Domain-Driven Design",
+    "author": "Eric Evans",
+    "year": 2003,
+    "genre": "Software Architecture",
+    "price": 54.95,
+    "image": "https://m.media-amazon.com/images/I/51rXzT9yJrL.jpg"
+  },
+  {
+    "title": "The Art of Computer Programming, Vol 1",
+    "author": "Donald E. Knuth",
+    "year": 1997,
+    "genre": "Algorithms",
+    "price": 89.5,
+    "image": "https://m.media-amazon.com/images/I/41as+WafZpL.jpg"
+  },
+  {
+    "title": "Python Crash Course",
+    "author": "Eric Matthes",
+    "year": 2019,
+    "genre": "Programming",
+    "price": 39.99,
+    "image": "https://m.media-amazon.com/images/I/51F8deDZZmL.jpg"
+  }
+]
