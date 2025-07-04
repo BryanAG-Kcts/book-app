@@ -31,5 +31,24 @@ export const bookController = {
       status: 201,
       data: book
     })
+  },
+  getBook(req: Request, res: Response) {
+    const id = parseInt(req.params.id)
+    const book = BookStorage.getBookById(id)
+
+    if (!book) {
+      res.status(404).json({
+        message: 'Book not found',
+        status: 404
+      })
+
+      return
+    }
+
+    res.status(200).json({
+      message: 'Get book',
+      status: 200,
+      data: book
+    })
   }
 }
