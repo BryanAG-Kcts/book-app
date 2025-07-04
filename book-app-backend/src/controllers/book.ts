@@ -93,5 +93,33 @@ export const bookController = {
       status: 200,
       data: updatedBook
     })
+  },
+  async deleteBook(req: Request, res: Response) {
+    const id = await safeParseInt(req.params.id)
+    if (!id.success) {
+      res.status(400).json({
+        message: 'Bad request',
+        status: 400,
+        errors: id.error.issues
+      })
+
+      return
+    }
+
+    const book = BookStorage.getBookById(id.data)
+    if (!book) {
+      res.status(404).json({
+        message: 'Book not found',
+        status: 404
+      })
+
+      return
+    }
+
+    BookStorage.deleteBook(id.data)
+    res.status(204).json({
+      message: 'Book deleted',
+      status: 204
+    })
   }
 }

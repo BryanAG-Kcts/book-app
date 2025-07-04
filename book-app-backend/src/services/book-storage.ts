@@ -23,7 +23,7 @@ export class BookStorage {
     this.books.push(book)
   }
 
-  public static removeBook(id: number): void {
+  public static deleteBook(id: number): void {
     this.books = this.books.filter(book => book.id !== id)
   }
 
