@@ -71,6 +71,7 @@ export const bookController = {
         message: 'Book not found',
         status: 404
       })
+
       return
     }
 
