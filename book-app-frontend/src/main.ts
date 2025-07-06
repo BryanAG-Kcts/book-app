@@ -16,4 +16,5 @@ app.use(PrimeVue, {
     preset: Material
   }
 })
+
 app.mount('#app')
