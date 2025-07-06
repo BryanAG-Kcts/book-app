@@ -3,6 +3,7 @@ import type { Book } from '../interfaces/book'
 import { saveFetch } from '../utils/saveFetch'
 import { BOOKS_ENDPOINT } from '../constants/api'
 import type {
+  BooksEndpoint,
   GetBookByIdEndpoint,
   GetBooksEndpoint
 } from '../interfaces/BookEndpoints'
@@ -18,7 +19,9 @@ export const useBookStore = defineStore('book', {
     async fetchBooks() {
       this.loading = true
       this.error = null
-      const [data, error] = await saveFetch<GetBooksEndpoint>(BOOKS_ENDPOINT)
+      const [data, error] = await saveFetch<GetBooksEndpoint>(
+        fetch(BOOKS_ENDPOINT)
+      )
       this.loading = false
       this.error = error?.message ?? null
       this.books = data?.data ?? []
@@ -27,11 +30,52 @@ export const useBookStore = defineStore('book', {
       this.loading = true
       this.error = null
       const [data, error] = await saveFetch<GetBookByIdEndpoint>(
-        `${BOOKS_ENDPOINT}/${id}`
+        fetch(`${BOOKS_ENDPOINT}/${id}`)
       )
       this.loading = false
       this.error = error?.message ?? null
       this.selectedBook = data?.data ?? null
+    },
+    async deleteBook(id: number) {
+      this.loading = true
+      this.error = null
+      const [, error] = await saveFetch<BooksEndpoint>(
+        fetch(`${BOOKS_ENDPOINT}/${id}`, {
+          method: 'DELETE'
+        })
+      )
+      this.loading = false
+      this.error = error?.message ?? null
+    },
+    async createBook(book: Book) {
+      this.loading = true
+      this.error = null
+      const [, error] = await saveFetch<BooksEndpoint>(
+        fetch(BOOKS_ENDPOINT, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify(book)
+        })
+      )
+      this.loading = false
+      this.error = error?.message ?? null
+    },
+    async updateBook(book: Book) {
+      this.loading = true
+      this.error = null
+      const [, error] = await saveFetch<BooksEndpoint>(
+        fetch(`${BOOKS_ENDPOINT}/${book.id}`, {
+          method: 'PUT',
+          headers: {
+            'Content-Type': 'application/json'
+          },
+          body: JSON.stringify(book)
+        })
+      )
+      this.loading = false
+      this.error = error?.message ?? null
     }
   }
 })

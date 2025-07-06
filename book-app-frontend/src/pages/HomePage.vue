@@ -6,7 +6,6 @@ const bookStore = useBookStore()
 
 onMounted(() => {
   bookStore.fetchBooks()
-  bookStore.getBookById(1)
 })
 </script>
 
@@ -29,6 +28,39 @@ onMounted(() => {
     <div>
       Individual:
       <p>{{ bookStore.selectedBook?.genre }}</p>
+    </div>
+
+    <div>
+      <button @click="bookStore.getBookById(1)">Obtener libro</button>
+      <br />
+      <button @click="bookStore.deleteBook(1)">Eliminar libro</button>
+      <br />
+      <button
+        @click="
+          bookStore.updateBook({
+            id: 1,
+            title: 'Libro actualizado',
+            author: 'Autor actualizado',
+            genre: 'Genero actualizado',
+            image: 'http://URL_ADDRESS1',
+            price: 100,
+            year: 1999
+          })
+        "
+      >
+        actualizar libro
+      </button>
+      <br />
+      <button @click="
+          bookStore.createBook({
+            title: 'Libro actualizado',
+            author: 'Autor actualizado',
+            genre: 'Genero actualizado',
+            image: 'http://URL_ADDRESS',
+            price: 100,
+            year: 1999
+          })
+        ">crear libro</button>
     </div>
   </div>
 </template>
