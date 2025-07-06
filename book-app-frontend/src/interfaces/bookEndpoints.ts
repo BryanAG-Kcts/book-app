@@ -8,3 +8,7 @@ export interface BooksEndpoint {
 export interface GetBooksEndpoint extends BooksEndpoint {
   data: Book[]
 }
+
+export interface GetBookByIdEndpoint extends BooksEndpoint {
+  data: Book
+}

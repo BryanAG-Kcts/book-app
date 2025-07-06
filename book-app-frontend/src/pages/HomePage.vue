@@ -6,6 +6,7 @@ const bookStore = useBookStore()
 
 onMounted(() => {
   bookStore.fetchBooks()
+  bookStore.getBookById(1)
 })
 </script>
 
@@ -23,6 +24,11 @@ onMounted(() => {
           {{ book.title }}
         </li>
       </ul>
+    </div>
+
+    <div>
+      Individual:
+      <p>{{ bookStore.selectedBook?.genre }}</p>
     </div>
   </div>
 </template>
