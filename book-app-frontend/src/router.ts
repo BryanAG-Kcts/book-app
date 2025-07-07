@@ -15,7 +15,7 @@ const routes: RouteRecordRaw[] = [
       },
       {
         path: 'nuevo',
-        component: () => import('./pages/BookForm.vue')
+        component: () => import('./pages/BookNewForm.vue')
       },
       {
         path: 'dashboard',

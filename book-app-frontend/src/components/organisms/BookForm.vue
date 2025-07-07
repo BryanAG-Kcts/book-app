@@ -93,7 +93,6 @@ function submit() {
 }
 
 function validate(field: keyof Book, value: string | number) {
-  console.log({ value, field })
   return BookZodSchema.shape[field].safeParse(value).error?.issues[0].message
 }
 </script>
@@ -101,7 +100,7 @@ function validate(field: keyof Book, value: string | number) {
 <template>
   <form
     class="flex flex-col gap-7 sm:flex-row"
-    @submit="submit"
+    @submit.prevent="submit"
   >
     <div class="flex flex-col gap-2 flex-1">
       <Image

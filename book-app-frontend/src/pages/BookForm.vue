@@ -1,3 +1,0 @@
-<template>
-    book-form
-</template>
