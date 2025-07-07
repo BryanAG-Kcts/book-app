@@ -1,0 +1,3 @@
+<template>
+    book-detail
+</template>

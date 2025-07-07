@@ -1,0 +1,3 @@
+<template>
+    book-chart
+</template>

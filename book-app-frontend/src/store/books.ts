@@ -6,7 +6,7 @@ import type {
   BooksEndpoint,
   GetBookByIdEndpoint,
   GetBooksEndpoint
-} from '../interfaces/BookEndpoints'
+} from '../interfaces/bookEndpoints'
 
 export const useBookStore = defineStore('book', {
   state: () => ({
