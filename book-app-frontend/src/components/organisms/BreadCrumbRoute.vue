@@ -16,7 +16,7 @@ const breadcrumbs = computed(() => {
 
 const home = ref({
   icon: 'pi pi-home',
-  link: '/'
+  link: '/libros'
 })
 </script>
 
