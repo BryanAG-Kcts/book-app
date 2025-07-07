@@ -24,7 +24,7 @@
     "year": 1994,
     "genre": "Software Engineering",
     "price": 42.0,
-    "image": "https://m.media-amazon.com/images/I/51kM8c7TybL.jpg"
+    "image": "https://m.media-amazon.com/images/I/81IGFC6oFmL.jpg"
   },
   {
     "id": 4,
@@ -33,7 +33,7 @@
     "year": 2009,
     "genre": "Algorithms",
     "price": 89.95,
-    "image": "https://m.media-amazon.com/images/I/41as+WafrFL.jpg"
+    "image": "https://images.cdn1.buscalibre.com/fit-in/360x360/ce/4d/ce4daab00e405bca345cfbbf20b5c8df.jpg"
   },
   {
     "id": 5,
@@ -42,7 +42,7 @@
     "year": 2014,
     "genre": "JavaScript",
     "price": 19.99,
-    "image": "https://m.media-amazon.com/images/I/81kqrwS1nNL.jpg"
+    "image": "https://m.media-amazon.com/images/I/81zWsOMWE4L._UF1000,1000_QL80_.jpg"
   },
   {
     "id": 6,
@@ -60,7 +60,7 @@
     "year": 1996,
     "genre": "Computer Science",
     "price": 54.99,
-    "image": "https://m.media-amazon.com/images/I/71PRzI70wIL.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/9/9d/SICP_cover.jpg"
   },
   {
     "id": 8,
@@ -69,7 +69,7 @@
     "year": 2010,
     "genre": "Artificial Intelligence",
     "price": 119.99,
-    "image": "https://m.media-amazon.com/images/I/61bYpM8K+rL.jpg"
+    "image": "https://images.cdn3.buscalibre.com/fit-in/360x360/e0/d0/e0d0f7d51102b3fcff3b25b8506569d0.jpg"
   },
   {
     "id": 9,
@@ -78,7 +78,7 @@
     "year": 2015,
     "genre": "Programming",
     "price": 39.95,
-    "image": "https://m.media-amazon.com/images/I/51FHPVZ1aPL.jpg"
+    "image": "https://images.cdn1.buscalibre.com/fit-in/360x360/ca/7f/ca7f7bff848bbbbde3c30f1fd5492abc.jpg"
   },
   {
     "id": 10,
@@ -96,7 +96,7 @@
     "year": 2004,
     "genre": "Software Engineering",
     "price": 44.95,
-    "image": "https://m.media-amazon.com/images/I/51WfKUtP4kL.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/en/5/58/Code_Complete_1st_edition.jpg"
   },
   {
     "id": 12,
@@ -105,7 +105,7 @@
     "year": 1999,
     "genre": "Software Engineering",
     "price": 39.99,
-    "image": "https://m.media-amazon.com/images/I/51kuc0LRG4L.jpg"
+    "image": "https://m.media-amazon.com/images/I/71TGolfP8fL._UF350,350_QL50_.jpg"
   },
   {
     "id": 13,
@@ -123,7 +123,7 @@
     "year": 2011,
     "genre": "Algorithms",
     "price": 67.95,
-    "image": "https://m.media-amazon.com/images/I/51j8gH9R2KL.jpg"
+    "image": "https://m.media-amazon.com/images/I/61-8ZU7X3UL.jpg"
   },
   {
     "id": 15,
@@ -132,7 +132,7 @@
     "year": 2018,
     "genre": "JavaScript",
     "price": 35.0,
-    "image": "https://m.media-amazon.com/images/I/51KdZspjQdL.jpg"
+    "image": "https://http2.mlstatic.com/D_NQ_NP_638584-MLU78052998840_082024-O.webp"
   },
   {
     "id": 16,
@@ -141,7 +141,7 @@
     "year": 2016,
     "genre": "Machine Learning",
     "price": 72.0,
-    "image": "https://m.media-amazon.com/images/I/61jSk6P-4-L.jpg"
+    "image": "https://images.cdn3.buscalibre.com/fit-in/360x360/31/87/31879b23ad99c479b59776475afafd5f.jpg"
   },
   {
     "id": 17,
@@ -150,7 +150,7 @@
     "year": 2019,
     "genre": "Machine Learning",
     "price": 49.99,
-    "image": "https://m.media-amazon.com/images/I/81vpsIs58WL.jpg"
+    "image": "https://images.cdn1.buscalibre.com/fit-in/360x360/00/f0/00f06c5041cf96665153e82ffc3c0ef1.jpg"
   },
   {
     "id": 18,
@@ -159,7 +159,7 @@
     "year": 2006,
     "genre": "Computer Science",
     "price": 104.99,
-    "image": "https://m.media-amazon.com/images/I/51HBlC5Y6SL.jpg"
+    "image": "https://images.cdn2.buscalibre.com/fit-in/360x360/b8/18/c1c4988c55bba86225e66088f324e6ea.jpg"
   },
   {
     "id": 19,
@@ -168,7 +168,7 @@
     "year": 1997,
     "genre": "Computer Science",
     "price": 199.99,
-    "image": "https://m.media-amazon.com/images/I/61MYw9b6-CL.jpg"
+    "image": "https://images.cdn2.buscalibre.com/fit-in/520x520/bd/23/bd93ecf994e9f67a2377b3d764b5d1ba.jpg"
   },
   {
     "id": 20,
@@ -177,6 +177,6 @@
     "year": 2004,
     "genre": "Software Engineering",
     "price": 49.95,
-    "image": "https://m.media-amazon.com/images/I/71NEmVBsLOL.jpg"
+    "image": "https://m.media-amazon.com/images/I/81iVQ1bi-FL.jpg"
   }
 ]
