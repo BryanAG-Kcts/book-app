@@ -6,8 +6,9 @@ import { useBookStore } from '../store/books'
 
 const bookStore = useBookStore()
 
-function submit(book: Book) {
-  bookStore.createBook(book)
+async function submit(book: Book) {
+  await bookStore.createBook(book)
+  await bookStore.fetchBooks()
 }
 </script>
 

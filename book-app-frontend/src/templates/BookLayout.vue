@@ -4,7 +4,6 @@ import { useBookStore } from '../store/books'
 import { onMounted } from 'vue'
 import BreadCrumbRoute from '../components/organisms/BreadCrumbRoute.vue'
 
-
 onMounted(useBookStore().fetchBooks)
 </script>
 

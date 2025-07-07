@@ -102,7 +102,7 @@ export default defineComponent({
     :value="bookStore.books"
     :loading="bookStore.loading"
     row-hover
-    style="border-radius: 0.25rem; overflow: hidden;"
+    style="border-radius: 0.25rem; overflow: hidden"
   >
     <template #empty>
       <Message

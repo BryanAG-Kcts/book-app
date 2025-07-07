@@ -86,11 +86,9 @@ src/
 
 ## 🖼️ **Capturas**
 
-📷 Puedes incluir aquí un GIF corto o imágenes de las principales vistas:
-
-![📚 Lista de libros](../book-list.png)
-![✍️ Formulario de libro (crear/editar)](../book-details.png)
-![ Dashboard de estadísticas](../charts.png)
+![📚 Lista de libros](/book-list.png)
+![✍️ Formulario de libro (crear/editar)](/book-details.png)
+![ Dashboard de estadísticas](/charts.png)
 
 ---
 

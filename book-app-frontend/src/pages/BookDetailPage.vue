@@ -13,16 +13,18 @@ const route = useRoute()
 const bookStore = useBookStore()
 const dialogRef = ref<InstanceType<typeof ToastDialog> | null>(null)
 
-onMounted(() => {
-  bookStore.getBookById(Number(route.params.id as string))
+onMounted(async () => {
+  await bookStore.getBookById(Number(route.params.id as string))
 })
 
-function handleSubmit(book: Book) {
-  bookStore.updateBook(book)
+async function handleSubmit(book: Book) {
+  await bookStore.updateBook(book)
+  await bookStore.fetchBooks()
 }
 
-function handleDelete() {
-  bookStore.deleteBook(bookStore.selectedBook?.id as number)
+async function handleDelete() {
+  await bookStore.deleteBook(bookStore.selectedBook?.id as number)
+  await bookStore.fetchBooks()
   bookStore.selectedBook = null
 }
 
@@ -49,7 +51,7 @@ function show() {
   </Message>
 
   <div
-    v-else
+    v-if="bookStore.selectedBook"
     class="flex flex-col gap-3"
   >
     <div

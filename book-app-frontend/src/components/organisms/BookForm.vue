@@ -89,6 +89,7 @@ function submit() {
     detail: 'El libro se guardó correctamente',
     life: 3000
   })
+
   emit('handleSubmit', result.data)
 }
 

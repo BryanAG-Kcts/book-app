@@ -31,7 +31,12 @@ const home = ref({
         :to="item.link"
         v-if="item.link !== route.path"
       >
-        <p v-if="item.label">{{ item.label }}</p>
+        <p
+          v-if="item.label"
+          style="text-decoration: underline"
+        >
+          {{ item.label }}
+        </p>
         <i
           v-else
           :class="item.icon"

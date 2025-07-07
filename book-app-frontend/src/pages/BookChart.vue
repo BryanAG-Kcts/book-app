@@ -3,6 +3,7 @@ import { computed } from 'vue'
 import TitlePage from '../components/atoms/TitlePage.vue'
 import { useBookStore } from '../store/books'
 import Chart from 'primevue/chart'
+import Message from 'primevue/message'
 
 const bookStore = useBookStore()
 const booksByGenre = computed(() => {
