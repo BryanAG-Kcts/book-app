@@ -1,31 +1,40 @@
+import { defineAsyncComponent } from 'vue'
 import { createRouter, createWebHistory, type RouteRecordRaw } from 'vue-router'
 
 const routes: RouteRecordRaw[] = [
   {
+    path: '/',
+    redirect: '/libros'
+  },
+  {
     path: '/libros',
-    component: () => import('./templates/BookLayout.vue'),
+    component: defineAsyncComponent(() => import('./templates/BookLayout.vue')),
     children: [
       {
         path: '',
-        component: () => import('./pages/BookListPage.vue')
+        component: defineAsyncComponent(
+          () => import('./pages/BookListPage.vue')
+        )
       },
       {
         path: ':id',
-        component: () => import('./pages/BookDetailPage.vue')
+        component: defineAsyncComponent(
+          () => import('./pages/BookDetailPage.vue')
+        )
       },
       {
         path: 'nuevo',
-        component: () => import('./pages/BookNewForm.vue')
+        component: defineAsyncComponent(() => import('./pages/BookNewForm.vue'))
       },
       {
         path: 'dashboard',
-        component: () => import('./pages/BookChart.vue')
+        component: defineAsyncComponent(() => import('./pages/BookChart.vue'))
       }
     ]
   },
   {
     path: '/:pathMatch(.*)*',
-    component: () => import('./pages/NotFoundPage.vue')
+    component: defineAsyncComponent(() => import('./pages/NotFoundPage.vue'))
   }
 ]
 

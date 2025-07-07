@@ -96,11 +96,11 @@ src/
 
 ## 🧪 **Comandos**
 
-| Comando           | Descripción                      |
-| ----------------- | -------------------------------- |
-| `npm run dev`     | Inicia la app en modo desarrollo |
-| `npm run check`   | Validaciones con Prettier        |
-| `npm run write`   | Correcciones con Prettier        |
+| Comando         | Descripción                      |
+| --------------- | -------------------------------- |
+| `npm run dev`   | Inicia la app en modo desarrollo |
+| `npm run check` | Validaciones con Prettier        |
+| `npm run write` | Correcciones con Prettier        |
 
 ---
 
